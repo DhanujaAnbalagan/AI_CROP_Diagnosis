@@ -1,0 +1,713 @@
+{
+ "Apple___Apple_scab": {
+  "default": {
+   "organic": [
+    {
+     "name": "Copper Soap",
+     "dosage": "12 ml per liter",
+     "frequency": "Every 14 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Mancozeb",
+     "dosage": "3.0 g per liter",
+     "frequency": "Every 17 days"
+    }
+   ]
+  }
+ },
+ "Apple___Black_rot": {
+  "default": {
+   "organic": [
+    {
+     "name": "Trichoderma viride",
+     "dosage": "6 g per liter",
+     "frequency": "Soil drench"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Captan",
+     "dosage": "2 g per liter",
+     "frequency": "Every 14 days"
+    }
+   ]
+  }
+ },
+ "Apple___Cedar_apple_rust": {
+  "default": {
+   "organic": [
+    {
+     "name": "Sulfur Dust",
+     "dosage": "18 g per 10 sqm",
+     "frequency": "Every 14 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Propiconazole",
+     "dosage": "1.2 ml per liter",
+     "frequency": "Every 21 days"
+    }
+   ]
+  }
+ },
+ "Apple___healthy": {
+  "default": {
+   "organic": [
+    {
+     "name": "Pruning and mulch",
+     "dosage": "As per soil test",
+     "frequency": "Standard cycle"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "None",
+     "dosage": "N/A",
+     "frequency": "N/A"
+    }
+   ]
+  }
+ },
+ "Blueberry___healthy": {
+  "default": {
+   "organic": [
+    {
+     "name": "Balanced Nutrients",
+     "dosage": "As per soil test",
+     "frequency": "Standard cycle"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "None",
+     "dosage": "N/A",
+     "frequency": "N/A"
+    }
+   ]
+  }
+ },
+ "Cherry_(including_sour)___Powdery_mildew": {
+  "default": {
+   "organic": [
+    {
+     "name": "Potassium Bicarbonate",
+     "dosage": "4 g per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Myclobutanil",
+     "dosage": "0.5 ml per liter",
+     "frequency": "Every 14 days"
+    }
+   ]
+  }
+ },
+ "Cherry_(including_sour)___healthy": {
+  "default": {
+   "organic": [
+    {
+     "name": "Balanced Nutrients",
+     "dosage": "As per soil test",
+     "frequency": "Standard cycle"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "None",
+     "dosage": "N/A",
+     "frequency": "N/A"
+    }
+   ]
+  }
+ },
+ "Corn_(maize)___Cercospora_leaf_spot": {
+  "default": {
+   "organic": [
+    {
+     "name": "Copper Soap",
+     "dosage": "10 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Mancozeb",
+     "dosage": "2.5 g per liter",
+     "frequency": "Every 10 days"
+    }
+   ]
+  }
+ },
+ "Corn_(maize)___Common_rust": {
+  "default": {
+   "organic": [
+    {
+     "name": "Sulfur Dust",
+     "dosage": "15 g per 10 sqm",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Propiconazole",
+     "dosage": "1.0 ml per liter",
+     "frequency": "Every 14 days"
+    }
+   ]
+  }
+ },
+ "Corn_(maize)___Northern_Leaf_Blight": {
+  "default": {
+   "organic": [
+    {
+     "name": "Neem Oil Spray",
+     "dosage": "5 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Chlorothalonil Fungicide",
+     "dosage": "2.0 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ]
+  }
+ },
+ "Corn_(maize)___healthy": {
+  "default": {
+   "organic": [
+    {
+     "name": "Balanced Nutrients",
+     "dosage": "As per soil test",
+     "frequency": "Standard cycle"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "None",
+     "dosage": "N/A",
+     "frequency": "N/A"
+    }
+   ]
+  }
+ },
+ "Grape___Black_rot": {
+  "default": {
+   "organic": [
+    {
+     "name": "Trichoderma viride",
+     "dosage": "4 g per liter",
+     "frequency": "Soil drench"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Captan",
+     "dosage": "1 g per liter",
+     "frequency": "Every 9 days"
+    }
+   ]
+  }
+ },
+ "Grape___Esca_(Black_Measles)": {
+  "default": {
+   "organic": [
+    {
+     "name": "General Bio-Fungicide",
+     "dosage": "5 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "General Fungicide",
+     "dosage": "2 g per liter",
+     "frequency": "Every 10 days"
+    }
+   ]
+  }
+ },
+ "Grape___Leaf_blight": {
+  "default": {
+   "organic": [
+    {
+     "name": "Neem Oil Spray",
+     "dosage": "4 ml per liter",
+     "frequency": "Every 9 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Chlorothalonil Fungicide",
+     "dosage": "1.6 ml per liter",
+     "frequency": "Every 9 days"
+    }
+   ]
+  }
+ },
+ "Grape___healthy": {
+  "default": {
+   "organic": [
+    {
+     "name": "Pruning and spacing",
+     "dosage": "As per soil test",
+     "frequency": "Standard cycle"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "None",
+     "dosage": "N/A",
+     "frequency": "N/A"
+    }
+   ]
+  }
+ },
+ "Orange___Haunglongbing": {
+  "default": {
+   "organic": [
+    {
+     "name": "Neem Oil Concentrate",
+     "dosage": "5 ml per liter",
+     "frequency": "Every 5 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Abamectin insecticide",
+     "dosage": "0.5 ml per liter",
+     "frequency": "Every 15 days"
+    }
+   ]
+  }
+ },
+ "Peach___Bacterial_spot": {
+  "default": {
+   "organic": [
+    {
+     "name": "Copper Soap",
+     "dosage": "10 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Mancozeb",
+     "dosage": "2.5 g per liter",
+     "frequency": "Every 10 days"
+    }
+   ]
+  }
+ },
+ "Peach___healthy": {
+  "default": {
+   "organic": [
+    {
+     "name": "Balanced Nutrients",
+     "dosage": "As per soil test",
+     "frequency": "Standard cycle"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "None",
+     "dosage": "N/A",
+     "frequency": "N/A"
+    }
+   ]
+  }
+ },
+ "Pepper,_bell___Bacterial_spot": {
+  "default": {
+   "organic": [
+    {
+     "name": "Copper Soap",
+     "dosage": "10 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Mancozeb",
+     "dosage": "2.5 g per liter",
+     "frequency": "Every 10 days"
+    }
+   ]
+  }
+ },
+ "Pepper,_bell___healthy": {
+  "default": {
+   "organic": [
+    {
+     "name": "Balanced Nutrients",
+     "dosage": "As per soil test",
+     "frequency": "Standard cycle"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "None",
+     "dosage": "N/A",
+     "frequency": "N/A"
+    }
+   ]
+  }
+ },
+ "Potato___Early_blight": {
+  "default": {
+   "organic": [
+    {
+     "name": "Neem Oil Spray",
+     "dosage": "5 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Chlorothalonil Fungicide",
+     "dosage": "2.2 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ]
+  }
+ },
+ "Potato___Late_blight": {
+  "default": {
+   "organic": [
+    {
+     "name": "Neem Oil Spray",
+     "dosage": "5 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Chlorothalonil Fungicide",
+     "dosage": "2.2 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ]
+  }
+ },
+ "Potato___healthy": {
+  "default": {
+   "organic": [
+    {
+     "name": "Hilling soil",
+     "dosage": "As per soil test",
+     "frequency": "Standard cycle"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "None",
+     "dosage": "N/A",
+     "frequency": "N/A"
+    }
+   ]
+  }
+ },
+ "Raspberry___healthy": {
+  "default": {
+   "organic": [
+    {
+     "name": "Balanced Nutrients",
+     "dosage": "As per soil test",
+     "frequency": "Standard cycle"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "None",
+     "dosage": "N/A",
+     "frequency": "N/A"
+    }
+   ]
+  }
+ },
+ "Soybean___healthy": {
+  "default": {
+   "organic": [
+    {
+     "name": "Balanced Nutrients",
+     "dosage": "As per soil test",
+     "frequency": "Standard cycle"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "None",
+     "dosage": "N/A",
+     "frequency": "N/A"
+    }
+   ]
+  }
+ },
+ "Squash___Powdery_mildew": {
+  "default": {
+   "organic": [
+    {
+     "name": "Potassium Bicarbonate",
+     "dosage": "4 g per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Myclobutanil",
+     "dosage": "0.5 ml per liter",
+     "frequency": "Every 14 days"
+    }
+   ]
+  }
+ },
+ "Strawberry___Leaf_scorch": {
+  "default": {
+   "organic": [
+    {
+     "name": "General Bio-Fungicide",
+     "dosage": "5 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "General Fungicide",
+     "dosage": "2 g per liter",
+     "frequency": "Every 10 days"
+    }
+   ]
+  }
+ },
+ "Strawberry___healthy": {
+  "default": {
+   "organic": [
+    {
+     "name": "Balanced Nutrients",
+     "dosage": "As per soil test",
+     "frequency": "Standard cycle"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "None",
+     "dosage": "N/A",
+     "frequency": "N/A"
+    }
+   ]
+  }
+ },
+ "Tomato___Bacterial_spot": {
+  "default": {
+   "organic": [
+    {
+     "name": "Copper Soap",
+     "dosage": "10 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Mancozeb",
+     "dosage": "2.5 g per liter",
+     "frequency": "Every 10 days"
+    }
+   ]
+  }
+ },
+ "Tomato___Early_blight": {
+  "default": {
+   "organic": [
+    {
+     "name": "Neem Oil Spray",
+     "dosage": "5 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Chlorothalonil Fungicide",
+     "dosage": "2.0 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ]
+  },
+  "regional": {
+   "Tamil Nadu": {
+    "organic": [
+     {
+      "name": "Neem Oil Spray",
+      "dosage": "5 ml per liter",
+      "frequency": "Every 5 days (High Humidity)"
+     }
+    ],
+    "chemical": [
+     {
+      "name": "Mancozeb Fungicide",
+      "dosage": "2.5 g per liter",
+      "frequency": "Every 7 days"
+     }
+    ]
+   },
+   "Punjab": {
+    "chemical": [
+     {
+      "name": "Chlorothalonil Fungicide",
+      "dosage": "2 ml per liter",
+      "frequency": "Every 10 days (Dry)"
+     }
+    ]
+   }
+  }
+ },
+ "Tomato___Late_blight": {
+  "default": {
+   "organic": [
+    {
+     "name": "Neem Oil Spray",
+     "dosage": "5 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Chlorothalonil Fungicide",
+     "dosage": "2.0 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ]
+  }
+ },
+ "Tomato___Leaf_Mold": {
+  "default": {
+   "organic": [
+    {
+     "name": "General Bio-Fungicide",
+     "dosage": "5 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "General Fungicide",
+     "dosage": "2 g per liter",
+     "frequency": "Every 10 days"
+    }
+   ]
+  }
+ },
+ "Tomato___Septoria_leaf_spot": {
+  "default": {
+   "organic": [
+    {
+     "name": "Copper Soap",
+     "dosage": "10 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Mancozeb",
+     "dosage": "2.5 g per liter",
+     "frequency": "Every 10 days"
+    }
+   ]
+  }
+ },
+ "Tomato___Spider_mites": {
+  "default": {
+   "organic": [
+    {
+     "name": "Neem Oil Concentrate",
+     "dosage": "5 ml per liter",
+     "frequency": "Every 5 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Abamectin insecticide",
+     "dosage": "0.5 ml per liter",
+     "frequency": "Every 15 days"
+    }
+   ]
+  }
+ },
+ "Tomato___Target_Spot": {
+  "default": {
+   "organic": [
+    {
+     "name": "Copper Soap",
+     "dosage": "10 ml per liter",
+     "frequency": "Every 7 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Mancozeb",
+     "dosage": "2.5 g per liter",
+     "frequency": "Every 10 days"
+    }
+   ]
+  }
+ },
+ "Tomato___Yellow_Leaf_Curl_Virus": {
+  "default": {
+   "organic": [
+    {
+     "name": "Neem Oil Concentrate",
+     "dosage": "5 ml per liter",
+     "frequency": "Every 5 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Imidacloprid insecticide",
+     "dosage": "0.5 ml per liter",
+     "frequency": "Every 15 days"
+    }
+   ]
+  }
+ },
+ "Tomato___Tomato_mosaic_virus": {
+  "default": {
+   "organic": [
+    {
+     "name": "Neem Oil Concentrate",
+     "dosage": "5 ml per liter",
+     "frequency": "Every 5 days"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "Imidacloprid insecticide",
+     "dosage": "0.5 ml per liter",
+     "frequency": "Every 15 days"
+    }
+   ]
+  }
+ },
+ "Tomato___healthy": {
+  "default": {
+   "organic": [
+    {
+     "name": "Compost and support stakes",
+     "dosage": "As per soil test",
+     "frequency": "Standard cycle"
+    }
+   ],
+   "chemical": [
+    {
+     "name": "None",
+     "dosage": "N/A",
+     "frequency": "N/A"
+    }
+   ]
+  }
+ }
+}

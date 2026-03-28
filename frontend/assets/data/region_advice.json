@@ -1,0 +1,20 @@
+{
+  "Tamil Nadu": {
+    "Potato___Early_blight": "High humidity in Tamil Nadu increases fungal spread. Spray fungicide earlier.",
+    "Tomato___Early_blight": "Monsoon conditions favor early blight in Tamil Nadu. Ensure proper spacing for ventilation.",
+    "Potato___Late_blight": "Hill regions of Tamil Nadu are prone to late blight. Use resistant varieties.",
+    "Tomato___Late_blight": "High rainfall periods in Tamil Nadu are critical. Apply protective sprays."
+  },
+  "Punjab": {
+    "Potato___Early_blight": "Dry climate in Punjab reduces fungal spread but intensive irrigation may increase risk.",
+    "Tomato___Early_blight": "Morning dew in Punjab winters can trigger early blight. Avoid overhead irrigation.",
+    "Potato___Late_blight": "Late blight in Punjab is common during foggy days. Monitor lower leaves closely.",
+    "Tomato___Late_blight": "Frost protection is as important as disease management in Punjab winters."
+  },
+  "Maharashtra": {
+    "Potato___Early_blight": "Warm climate in Maharashtra accelerates disease progression. Monitor frequently.",
+    "Tomato___Early_blight": "Post-monsoon humidity in Maharashtra is a risk factor. Use mulch to prevent soil splash.",
+    "Potato___Late_blight": "Cooler nights in Maharashtra's plateau regions favor late blight. Apply copper-based sprays.",
+    "Tomato___Late_blight": "Unexpected winter rains in Maharashtra can lead to rapid spread. Stay alert."
+  }
+}

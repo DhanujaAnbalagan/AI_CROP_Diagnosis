@@ -1,0 +1,179 @@
+openapi: 3.0.0
+info:
+  title: CropAId API Documentation
+  description: |
+    Detailed documentation for testing the CropAId ecosystem.
+    
+    ### How to Test:
+    1. **Render Backend**: Test the `/api/llm-advice` endpoint directly.
+    2. **Firebase Auth**: Use the Identity Toolkit endpoints. Note that Phone Auth requires a real device/SIM, but the REST structure is documented here.
+  version: 1.0.0
+servers:
+  - url: https://crop-aid-backend.onrender.com
+    description: Production Render Backend (Current Live API)
+  - url: https://identitytoolkit.googleapis.com
+    description: Firebase Identity API (Google Cloud)
+
+tags:
+  - name: Diagnosis
+    description: Crop disease analysis and advice
+  - name: Authentication
+    description: User identity and Firebase session management
+
+paths:
+  /api/llm-advice:
+    post:
+      tags:
+        - Diagnosis
+      summary: Fetch AI Diagnosis & Treatment
+      description: Sends detected crop data to the LLM backend to receive detailed organic and chemical treatment advice.
+      operationId: getLlmAdvice
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - crop
+                - disease
+                - severity
+                - confidence
+              properties:
+                crop:
+                  type: string
+                  example: "Tomato"
+                  description: "Name of the crop"
+                disease:
+                  type: string
+                  example: "Early Blight"
+                  description: "Name of the detected disease"
+                severity:
+                  type: string
+                  enum: [Low, Moderate, High]
+                  example: "Moderate"
+                confidence:
+                  type: number
+                  format: float
+                  minimum: 0
+                  maximum: 1
+                  example: 0.92
+                apiKey:
+                  type: string
+                  description: "Optional API Key for authentication"
+      responses:
+        '200':
+          description: Detailed diagnosis and treatment advice returned.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  cause:
+                    type: string
+                    example: "Fungal infection caused by Alternaria solani."
+                  symptoms:
+                    type: string
+                    example: "Dark, concentric rings on older leaves."
+                  immediate:
+                    type: string
+                    example: "Remove and destroy infected leaves."
+                  chemical:
+                    type: string
+                    example: "Apply chlorothalonil-based fungicides."
+                  organic:
+                    type: string
+                    example: "Spray with neem oil or baking soda solution."
+                  prevention:
+                    type: string
+                    example: "Rotate crops and improve air circulation."
+        '400':
+          description: Invalid input data
+        '500':
+          description: Backend LLM service failure
+
+  /v1/accounts:sendVerificationCode:
+    post:
+      tags:
+        - Authentication
+      summary: Send SMS OTP
+      description: Sends a 6-digit verification code to the user's mobile number via Firebase.
+      parameters:
+        - name: key
+          in: query
+          required: true
+          description: "Firebase API Key"
+          schema:
+            type: string
+            default: "AIzaSyAOTDqxHcTAHBGC_XzkqRLOyUu9mCOvR90"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - phoneNumber
+              properties:
+                phoneNumber:
+                  type: string
+                  example: "+911234567890"
+                recaptchaToken:
+                  type: string
+                  description: "Token from reCAPTCHA verification"
+      responses:
+        '200':
+          description: Code sent successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  sessionInfo:
+                    type: string
+                    description: "Required for the verifyPhoneNumber step"
+        '400':
+          description: Invalid phone number or recaptcha
+
+  /v1/accounts:signInWithPhoneNumber:
+    post:
+      tags:
+        - Authentication
+      summary: Verify OTP and Sign In
+      description: Exchanges the SMS code and sessionInfo for a Firebase ID Token.
+      parameters:
+        - name: key
+          in: query
+          required: true
+          description: "Firebase API Key"
+          schema:
+            type: string
+            default: "AIzaSyAOTDqxHcTAHBGC_XzkqRLOyUu9mCOvR90"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - sessionInfo
+                - code
+              properties:
+                sessionInfo:
+                  type: string
+                  description: "Session info received from sendVerificationCode"
+                code:
+                  type: string
+                  example: "123456"
+      responses:
+        '200':
+          description: Successfully authenticated
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  idToken: {type: string}
+                  refreshToken: {type: string}
+                  expiresIn: {type: string}
+                  localId: {type: string}

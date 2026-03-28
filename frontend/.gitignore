@@ -1,0 +1,109 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Generated files
+flutter_export_environment.sh
+generated_plugin_registrant.dart
+
+# Android related
+.gradle/
+**/gradle-wrapper.jar
+/local.properties
+/.idea/
+*.iml
+*.apk
+*.aar
+*.dex
+*.class
+*.jar
+*.keystore
+*.so
+*.swp
+
+# iOS/macOS related
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+macos/Flutter/Flutter.podspec
+Pods/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad*
+*.xcuserdata
+*.lock
+*.pbxuser
+*.mode1v3
+*.mode2v3
+
+# VS Code related
+.vscode/
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+
+# Misc
+*.log
+*.tmp
+*.DS_Store
+
+// Unit 126 by Akshith1413
+
+// Unit 162 by Rama-Roshinee06
+
+// Trace update 96
